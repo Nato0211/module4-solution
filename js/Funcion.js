@@ -26,7 +26,7 @@ var i = 0; // Inicializar la variable i
 while(i < nombres.length) {
     var name = nombres[i];
     if(name[0] === 'J' || name[0] === 'j') {
-        console.log("GoodBye J" + name);
+        console.log("GoodBye " + name);
     }else{
         console.log("Hello " + name);
     }
